@@ -19,4 +19,4 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          jupyter MovieRecommendation.ipynb
+          jupyter nbconvert --execute --to notebook --inplace MovieRecommendation.ipynb
