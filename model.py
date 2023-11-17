@@ -46,7 +46,7 @@ def mse(y_test, y_pred):
 # Check Tensorflow version
 print(tf.__version__)
 
-
+  
 # Create features
 X = np.arange(-100, 100, 4)
 
