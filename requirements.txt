@@ -3,6 +3,5 @@ numpy
 matplotlib
 pandas
 jupyter
-sklearn
 nltk
 scikit-learn
