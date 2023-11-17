@@ -19,4 +19,4 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          python model.py
+          jupyter MovieRecommendation.ipynb
