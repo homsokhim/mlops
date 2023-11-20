@@ -21,7 +21,3 @@ jobs:
           pip install -r requirements.txt
           jupyter nbconvert --execute --to notebook --inplace MovieRecommendation.ipynb
 
-          echo "Model Metrics" > report.md
-
-          cml-send-comment report.md
-
